@@ -131,7 +131,7 @@ function draw() {
 
 }
 
-function mouseDraggged()
+function mouseDragged()
 {
   Matter.Body.setPosition(this.polygon,{x:mouseX,y:mouseY});
 }
